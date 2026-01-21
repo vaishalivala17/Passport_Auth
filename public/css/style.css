@@ -1,0 +1,51 @@
+/* Custom styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.flash-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    min-width: 300px;
+}
+
+/* Dark theme */
+.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-theme .navbar {
+    background-color: #333 !important;
+}
+
+.dark-theme .card {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme .form-control {
+    background-color: #555;
+    color: #fff;
+    border-color: #777;
+}
+
+.dark-theme .btn-outline-primary {
+    color: #fff;
+    border-color: #fff;
+}
+
+.dark-theme .btn-outline-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
